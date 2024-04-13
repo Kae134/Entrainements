@@ -1,9 +1,5 @@
 jours = [13, 12, 11, 9, 16, 17, 100]
 
-# Avoir le plus de frics en sachant qu'il faut dodo tout les 4 jours
-# On a autant de dodo qu'on veut
-# Et donc au cas ou t'as pas compris connard c max 4 jours de taff
-
 class la_question_est_vite_repondu :
     def __init__(self, jours, dodo):
         self.lst_jours = jours
