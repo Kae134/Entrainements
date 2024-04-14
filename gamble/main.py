@@ -18,7 +18,7 @@ class la_question_est_vite_repondu :
             g_la_reponse = True
 
         while g_la_reponse != True :
-            if (i+4) >= self.max_list :
+            if (i+self.dodo_cons) >= self.max_list :
                 while i <= self.max_list:
                     self.result.append('le taff')
                     self.result_pas_fun += self.lst_jours[i-1]
